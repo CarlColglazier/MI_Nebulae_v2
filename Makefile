@@ -6,3 +6,11 @@ build:
 	cd mi-UGens
 	./linux-build.sh $(SC_PATH)
 
+collect:
+	./collect.sh
+
+clean:
+	rm -fr build
+
+all: build collect
+
