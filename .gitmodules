@@ -1,0 +1,6 @@
+[submodule "mi-UGens"]
+	path = mi-UGens
+	url = https://github.com/CarlColglazier/mi-UGens
+[submodule "supercollider"]
+	path = supercollider
+	url = https://github.com/CarlColglazier/supercollider
