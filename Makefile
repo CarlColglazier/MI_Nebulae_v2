@@ -14,3 +14,5 @@ clean:
 
 all: build collect
 
+install:
+	cp -pr build ~/.local/share/SuperCollider/Extensions/MI_Ugens
