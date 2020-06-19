@@ -14,5 +14,8 @@ clean:
 
 all: build collect
 
+bundle:
+	tar -czvf mi_nebulae_v2.tar.gz build/
+
 install:
 	cp -pr build ~/.local/share/SuperCollider/Extensions/MI_Ugens
